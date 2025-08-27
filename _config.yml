@@ -1,0 +1,19 @@
+title: 観測エロティクス小品集
+description: 科学の言葉で官能を読む——観測・干渉・波動関数をめぐる短編とエッセイ。
+theme: minima
+lang: ja
+timezone: Asia/Tokyo
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+minima:
+  date_format: "%Y-%m-%d"
+exclude:
+  - README.md
+  - "*.zip"
+  - "scripts"
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
