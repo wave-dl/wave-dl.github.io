@@ -13,4 +13,4 @@ permalink: /about/
   <li>一編 400〜1200 字、連作は <code>stories/</code> に配置</li>
 </ul>
 
-<p class="small">© {{ site.time | date: "%Y" }} 観測エロティクス小品集</p>
+<p class="small">© {{ site.time | date: "%Y" }} 観測エロティクス小話</p>
