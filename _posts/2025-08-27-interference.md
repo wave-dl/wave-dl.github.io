@@ -34,3 +34,5 @@ date: 2025-08-27
 
 > 「いやだ...まだ、触れるの...？」
 
+![電子雲](/images/electron cloude.png)
+
