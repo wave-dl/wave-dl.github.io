@@ -1,7 +1,7 @@
 /* Prefer local font if user adds /assets/fonts/MPLUS1p-Light.ttf; otherwise fallback to Google Fonts */
 @font-face {
   font-family: 'MPLUS1pLocal';
-  src: url('/assets/fonts/MPLUS1p-Light.ttf') format('truetype');
+  src: url('/assets/fonts/MS Mincho.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
