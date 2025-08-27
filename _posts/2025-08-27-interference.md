@@ -2,6 +2,7 @@
 layout: default
 title: 干渉
 date: 2025-08-27
+image: /images/electron cloude.png
 ---
 
 君とあなたの電子の電子雲は揺らぎながらも、二人の軌道をつくる。
