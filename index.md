@@ -12,14 +12,18 @@ title: Home
 </section>
 
 <h3>最新の短編</h3>
-<ul>
-  {% for post in site.posts limit:5 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <div class="small">{{ post.date | date: "%Y-%m-%d" }}</div>
-  </li>
+<div class="post-grid">
+  {% for post in site.posts limit:6 %}
+    <div class="post-card">
+      {% if post.image %}
+        <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}"></a>
+      {% endif %}
+      <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+      <div class="small">{{ post.date | date: "%Y-%m-%d" }}</div>
+      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+    </div>
   {% endfor %}
-</ul>
+</div>
 
 <h3>Stories コレクション</h3>
 <ul>
