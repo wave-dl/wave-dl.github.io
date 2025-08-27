@@ -33,11 +33,6 @@ body{font-family:'MPLUS1pLocal','M PLUS 1p', system-ui, -apple-system, Segoe UI,
   padding:12px;
   background:#fff;
 }
-.post-card img {
-  max-width:100%;
-  border-radius:6px;
-  margin-bottom:8px;
-}
 .post-card h4 {
   margin:0 0 .5rem 0;
   font-size:1.1rem;
