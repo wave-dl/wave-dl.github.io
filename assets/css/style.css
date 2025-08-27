@@ -14,12 +14,34 @@
   --link:#0366d6;
   --border:#eee;
   --w:900px;
+
+
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);}
 body{font-family:'MPLUS1pLocal','M PLUS 1p', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji','Segoe UI Emoji'; line-height:1.8; letter-spacing:.02em;}
 .container{max-width:var(--w); margin:0 auto; padding:24px;}
 .site-header{border-bottom:1px solid var(--border);}
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+.post-card {
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:12px;
+  background:#fff;
+}
+.post-card img {
+  max-width:100%;
+  border-radius:6px;
+  margin-bottom:8px;
+}
+.post-card h4 {
+  margin:0 0 .5rem 0;
+  font-size:1.1rem;
+}
 .site-title{margin:0;font-size:1.8rem;}
 .site-title a{text-decoration:none;color:var(--fg);}
 .site-desc{margin:.2rem 0 1rem;color:var(--muted);}
